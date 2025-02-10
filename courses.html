@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAC JBIT</title>
+    <link rel="icon" href="Images/logo 2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/logo.png" alt="" /></a>
+        <img src="Images/logo 2.png" class="logo2"/>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Clubs & Festivals</h1>
+    </section>
+
+    <!-- ------------courses------------- -->
+
+    <section class="course">
+      <h1>Festivals</h1>
+      <div class="course-intro">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
+          aspernatur temporibus veritatis corrupti odio earum fuga dolorem ad
+          ex libero doloremque eum non sed ea dolorum harum, eius hic tempore?
+        </p>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>Sankranthi</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            molestias expedita laboriosam tempora sapiente beatae itaque rem
+            totam ad, repellat voluptatem deserunt perferendis nulla eum
+            praesentium cum. Est, placeat esse!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Batukamma</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            doloribus corrupti iste officiis quasi. Id quos ratione reiciendis
+            nobis dolorem, autem quaerat aliquam ipsum, asperiores commodi,
+            officiis dicta cumque laudantium!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Republic Day</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+            dicta fugit hic dolorem reiciendis quasi minus voluptatem dolores
+            facilis nemo veniam animi, quidem ullam harum, nulla a, rerum
+            eos? Debitis?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------facilities---------------- -->
+
+    <section class="facilities">
+      <h1>Clubs we have</h1>
+      <div class="facilities-intro">
+        <p>
+          The JBIT campus is equipped with state-of-the-art facilities and
+          resources to support the learning and research needs of our students.
+        </p>
+      </div>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="Images/facilities1.jpg" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Our library is one of the largest and most comprehensive in the
+            country.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="Images/facilities2.jpg" alt="" />
+          <h3>Largest Playground</h3>
+          <p>
+            The campus has a large and well-maintained playground for students
+            to enjoy.
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="Images/facilities3.jpg" alt="" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            The campus has a well-equipped cafeteria that serves a variety of
+            nutritious and delicious meals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "We are passionate developers dedicated to crafting innovative
+          solutions that merge technology with creativity. <br />Our mission is
+          to build seamless experiences that redefine possibilities."
+        </p>
+      </div>
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/profile.php?id=100094296491449"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://twitter.com/RANIT_MANIK" class="fa fa-twitter"></a>
+        <a
+          href="https://www.instagram.com/ranit_manik_/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ranit-manik/"
+          class="fa fa-linkedin"
+        ></a>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by SAI NATH</p>
+      <p>© 2025 SAI NATH</p>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
